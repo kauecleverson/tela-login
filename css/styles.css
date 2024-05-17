@@ -20,7 +20,7 @@ body{
 
 .container{
     width: 400px;
-    color: white;
+    color: black;
     background-color: transparent;
     border: 2px solid rgba(27, 5, 148, 0.260);
     padding: 50px 50px;
@@ -48,12 +48,12 @@ body{
     outline: none;
     border: 1px solid rgb(255, 255, 255, .2);
     border-radius: 50px;
-    color: #fff;
+    color: black;
     padding: 20px 50px 20px 30px;
 }
 
 .container-input input::placeholder{
-    color: #fff;
+    color: black;
 }
 
 .container-input i{
@@ -75,7 +75,7 @@ body{
     outline: none;
     border-radius: 50px;
     cursor: pointer;
-    color: #3d3d3d;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    
+    color: #0e0d0d;
+    box-shadow: 0 0 10px rgba(49, 26, 184, 0.712);
+    background-color: rgba(19, 16, 16, 0.250);
 }
