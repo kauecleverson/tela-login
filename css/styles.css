@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background: url(../img/background.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.container{
+    width: 400px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgba(27, 5, 148, 0.260);
+    padding: 50px 50px;
+    border-radius: 10px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container .container-input{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+    font-size: 13px;
+}
+
+.container .container-input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255, .2);
+    border-radius: 50px;
+    color: #fff;
+    padding: 20px 50px 20px 30px;
+}
+
+.container-input input::placeholder{
+    color: #fff;
+}
+
+.container-input i{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container-manter{
+    margin: -20px 0 10px;
+
+}
+
+.container .btn-submit{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #3d3d3d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    
+}
