@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: sans-serif;
   background: url(../img/background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
