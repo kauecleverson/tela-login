@@ -23,6 +23,7 @@ body {
   color: black;
   background-color: transparent;
   border: 2px solid rgba(27, 5, 148, 0.26);
+  box-shadow: 0 0 10px rgba(49, 26, 184, 0.712);
   padding: 50px 50px;
   border-radius: 10px;
 }
@@ -74,7 +75,7 @@ body {
   outline: none;
   border-radius: 50px;
   cursor: pointer;
-  color: #0e0d0d;
+  color: #b5afaf;
   box-shadow: 0 0 10px rgba(49, 26, 184, 0.712);
-  background-color: rgba(19, 16, 16, 0.25);
+  background-color: rgba(19, 16, 16, 0.744);
 }
